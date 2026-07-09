@@ -2,15 +2,11 @@ CC = gcc
 
 CFLAGS = -Wall -Wextra -Iincludes
 
-SRC = src/main.c \
-      src/Unlock_You.c \
-      src/Input.c \
-      src/Mathematics.c \
-      src/Shuffle.c \
-      src/Combination.c \
-      src/Generator.c
+SRC = src/Eq_Solver(Main).c \
+      src/HCF.c \
+      src/sT_lINE_Eq.c 
 
-TARGET = Unlock_You.exe
+TARGET = EQ_Solver.exe
 
 $(TARGET): $(SRC)
 	$(CC) $(CFLAGS) $(SRC) -o $(TARGET)
