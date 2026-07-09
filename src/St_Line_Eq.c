@@ -30,7 +30,7 @@ void Point_Slope(int x1,int y1,int x2,int y2)
         return;
     }
 
-    int hcf = Hcf(abs(A),abs(B));
+    int hcf = HCF(abs(A),abs(B));
 
     A /= hcf; B /= hcf;
     int C = B*y1 - A*x1;
