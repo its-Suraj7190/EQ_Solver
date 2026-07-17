@@ -60,6 +60,14 @@ void Point_Slope(int x1,int y1,int x2,int y2)
     else strcat(eq,"= 0");
 
     printf("%s\n",eq);
+<<<<<<< HEAD
+=======
+}
+
+void Double_Intercept(int x_intercept, int y_intercept)
+{
+   Point_Slope(0,y_intercept,x_intercept,0);
+>>>>>>> 0cb21f3f25f82ae96b49c3b13613cf31124e72d9
 }
 
 void Double_Intercept(int x_intercept, int y_intercept)
